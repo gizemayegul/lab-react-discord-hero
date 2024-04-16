@@ -1,0 +1,66 @@
+:root {
+  font-family: "Poppins", sans-serif, "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #474edb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 1rem 2rem;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav :nth-child(1) {
+  width: 15%;
+}
+
+.Hero-container h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+.Hero-container p {
+  font-family: "Roboto", sans-serif;
+}
+
+.button-container {
+  display: flex;
+  align-items: start;
+  flex-flow: column;
+}
+button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: none;
+}
+.button-container :nth-child(2) {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
